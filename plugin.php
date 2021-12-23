@@ -1,10 +1,10 @@
 <?php
 /*
- * Plugin Name:  Ducat Demo Plugins
+ * Plugin Name: Demo Plugin
  * Plugin URI: https://myuitbook.com/course/wordpress/
  * Description: Custom Demo Plugins
- * Author: Ducat india
- * Author URI: https://demo.com
+ * Author: Punit Katiyar
+ * Author URI: https://codewithpunit.com.com
  * Version: 1.0.0
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
