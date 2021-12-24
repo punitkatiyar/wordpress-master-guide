@@ -2,6 +2,16 @@
 
 WordPress Developer Guide 
 
+> what is cms
+ 
+> how to setup wordpress online/offline
+
+>WordPress Dashboard
+
+> post vs page
+
+>Wordpress theme
+
 
 ## WP Plugin
 
