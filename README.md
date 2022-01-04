@@ -1,6 +1,4 @@
-# wordpress
-
-## job 15k 
+# wordpress cms
 
 WordPress Developer Guide 
 
