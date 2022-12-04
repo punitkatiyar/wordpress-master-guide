@@ -6,11 +6,15 @@ WordPress Developer Guide
  
 > how to setup wordpress online/offline
 
->WordPress Dashboard
+> WordPress Dashboard
 
 > post vs page
 
->Wordpress theme
+> Wordpress theme
+
+> WordPress Plugins
+
+> Wordpress Wight
 
 
 ## WP Plugin
