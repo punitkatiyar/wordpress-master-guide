@@ -1,3 +1,13 @@
+# Wordpress Plugins 
+
+> clasic Editor
+
+> Slider
+
+> 
+
+
+
 ```
 <?php
 /*
