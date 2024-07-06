@@ -1,6 +1,6 @@
 # wordpress cms
 
-WordPress Developer Guide 
+**WordPress Developer Guide**
 
 > what is cms
  
