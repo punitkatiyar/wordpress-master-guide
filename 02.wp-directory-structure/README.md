@@ -1,0 +1,2 @@
+# Wordpress Directory Structure 
+
