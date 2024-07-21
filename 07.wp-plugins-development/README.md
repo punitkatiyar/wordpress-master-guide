@@ -1,5 +1,7 @@
 # Create Basic Plugins 
 
+## plugins with document 
+
 ```
 <?php
 /*
@@ -22,4 +24,34 @@ add_shortcode( 'punit', 'custom_shortcode' );
 
 
 ?>
+```
+
+## plugins with passing argument
+
+```
+// Add Shortcode
+function video_embed_shortcode( $atts ) {
+
+	// Attributes
+	$atts = shortcode_atts(
+		array(
+			'src' => '',
+			'width' => '',
+			'height' => '',
+		),
+		$atts,
+		'video_embed'
+	);
+
+	// Return custom embed code
+	return '<embed 
+	         src="' . $atts['src'] . '"
+	         width="' . $atts['width'] . '"
+	         height="' . $atts['height'] . '"
+	         type="application/x-shockwave-flash"
+	         allowscriptaccess="always"
+	         allowfullscreen="true">';
+
+}
+add_shortcode( 'video_embed', 'video_embed_shortcode' );
 ```
