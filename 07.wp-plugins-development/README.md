@@ -62,3 +62,39 @@ function video_embed_shortcode( $atts ) {
 }
 add_shortcode( 'video_embed', 'video_embed_shortcode' );
 ```
+
+## add post with custom limit
+
+```
+// Add Shortcode
+function recent_posts_shortcode( $atts , $content = null ) {
+
+	// Attributes
+	$atts = shortcode_atts(
+		array(
+			'posts' => '5',
+		),
+		$atts,
+		'recent-posts'
+	);
+
+	// Query
+	$the_query = new WP_Query( array ( 'posts_per_page' => $atts['posts'] ) );
+	
+	// Posts
+	$output = '<ul>';
+	while ( $the_query->have_posts() ) :
+		$the_query->the_post();
+		$output .= '<li>' . get_the_title() . '</li>';
+	endwhile;
+	$output .= '</ul>';
+	
+	// Reset post data
+	wp_reset_postdata();
+	
+	// Return code
+	return $output;
+
+}
+add_shortcode( 'recent-posts', 'recent_posts_shortcode' );
+```
