@@ -61,6 +61,8 @@ function video_embed_shortcode( $atts ) {
 
 }
 add_shortcode( 'video_embed', 'video_embed_shortcode' );
+
+// calling : [video_embed src=”” width=”” height=””]
 ```
 
 ## add post with custom limit
