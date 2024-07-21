@@ -1,6 +1,6 @@
 # Create Basic Plugins 
 
-## plugins with document 
+## define plugins
 
 ```
 <?php
@@ -14,7 +14,14 @@ Author URI: http://www.myunitbook.com/
 License: GPL
 Copyright: Ducat India
 */
+?>
+```
 
+
+## plugins with HTML Document
+
+```
+<?php
 // Add Shortcode
 function custom_shortcode() {
     return "<h1>Hello</h1>";
