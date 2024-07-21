@@ -5,14 +5,14 @@
 ```
 <?php
 /*
-Plugin Name: unit
-Plugin URI: http://www.ducatindia.com
+Plugin Name: techbook
+Plugin URI: https://www.techunitbook.com
 Description: Customise WordPress Plugin By punit Katiyar
 Version: 1.0.1
 Author: Punit Katiyar
 Author URI: http://www.myunitbook.com/
 License: GPL
-Copyright: Ducat India
+Copyright: Tech Unit Book
 */
 ?>
 ```
